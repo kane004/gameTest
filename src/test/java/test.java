@@ -3,6 +3,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import ru.yandex.qatools.allure.annotations.*;
+import ru.yandex.qatools.allure.model.SeverityLevel;
 
 import java.util.concurrent.TimeUnit;
 
@@ -21,6 +23,13 @@ public class test {
         pageActions = new PageActions(driver);
     }
 
+
+    @Features("财务管理")
+    @Stories("会员对账")
+    @Title("验证会员对账差别金额数据第一条数据")
+    @Severity(SeverityLevel.BLOCKER)
+    @Step("1.进入会员对账，2.计算对账差别金额")
+    @Description("验证会员对账差别金额第一条数据")
     @Test
     public void validLoginTest() throws InterruptedException {
         pageActions.sendKeyID("800");
