@@ -2,7 +2,9 @@ import ListenerPackage.Assertion;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 import ru.yandex.qatools.allure.annotations.*;
 import ru.yandex.qatools.allure.model.SeverityLevel;
 
@@ -15,7 +17,7 @@ public class test {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\GoogleChrome_79.0.3945.130\\ChromePortable\\App\\Google Chrome\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://uat.marke88.com/cms/?#/login");
         driver.manage().window().maximize();
