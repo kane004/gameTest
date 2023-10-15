@@ -17,7 +17,7 @@ public class test {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "D:\\GoogleChrome_79.0.3945.130\\ChromePortable\\App\\Google Chrome\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://uat.marke88.com/cms/?#/login");
         driver.manage().window().maximize();
