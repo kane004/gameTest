@@ -32,7 +32,7 @@ public class test {
     @Severity(SeverityLevel.BLOCKER)
     @Step("1.进入会员对账，2.计算对账差别金额")
     @Description("验证会员对账差别金额第一条数据")
-    @Test
+    @Test(priority = 1)
     public void validLoginTest() throws InterruptedException {
         pageActions.sendKeyID("800");
         Thread.sleep(1000);
