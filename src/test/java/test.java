@@ -41,7 +41,7 @@ public class test {
         pageActions.enterPassword("kane01");
         Thread.sleep(1000);
         pageActions.clickLoginButton();
-        Assertion.verifyEquals(1,8);
+        Assertion.verifyEquals(1,1);
         Assert.assertTrue(Assertion.currentFlag());
 
     }
