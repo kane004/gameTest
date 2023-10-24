@@ -2,5 +2,4 @@ PageActions.class
 test.class
 ElementLocators.class
 DatabaseHelper.class
-ListenerPackage\AssertionListener.class
 ListenerPackage\Assertion.class

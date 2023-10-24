@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
-  <test name="webdriverCpTest(failed)">
+  <userList name="webdriverCpTest(failed)">
     <classes>
       <class name="Backstage.admin.panel">
         <methods>
@@ -24,7 +24,7 @@
       </class> <!-- Backstage.admin.ReportManagement -->
       <class name="UtilTest.StringToNumber">
         <methods>
-          <include name="test"/>
+          <include name="userList"/>
           <include name="StringInt"/>
           <include name="subString"/>
           <include name="contains"/>
@@ -61,11 +61,11 @@
           <include name="loginTime"/>
         </methods>
       </class> <!-- Backstage.admin.UserManagement -->
-      <class name="Backstage.admin.test">
+      <class name="Backstage.admin.userList">
         <methods>
           <include name="getTest"/>
         </methods>
-      </class> <!-- Backstage.admin.test -->
+      </class> <!-- Backstage.admin.userList -->
     </classes>
-  </test> <!-- webdriverCpTest(failed) -->
+  </userList> <!-- webdriverCpTest(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

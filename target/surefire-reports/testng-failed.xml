@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [后台]">
+  <test name="登录(failed)">
+    <classes>
+      <class name="test">
+        <methods>
+          <include name="setUp"/>
+          <include name="test2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test -->
+    </classes>
+  </test> <!-- 登录(failed) -->
+</suite> <!-- Failed suite [后台] -->
