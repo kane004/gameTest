@@ -5,65 +5,65 @@
   <suite name="Default Suite" duration-ms="2271" started-at="2019-10-21T02:12:54Z" finished-at="2019-10-21T02:12:56Z">
     <groups>
     </groups>
-    <userList name="webdriverCpTest" duration-ms="2271" started-at="2019-10-21T02:12:54Z" finished-at="2019-10-21T02:12:56Z">
+    <Test.User name="webdriverCpTest" duration-ms="2271" started-at="2019-10-21T02:12:54Z" finished-at="2019-10-21T02:12:56Z">
       <class name="Backstage.admin.panel">
-        <userList-method status="SKIP" signature="playerNumber()[pri:1, instance:Backstage.admin.panel@1ccfd1]" name="playerNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        <Test.User-method status="SKIP" signature="playerNumber()[pri:1, instance:Backstage.admin.panel@1ccfd1]" name="playerNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- playerNumber -->
-        <userList-method status="SKIP" signature="notesNumber()[pri:2, instance:Backstage.admin.panel@1ccfd1]" name="notesNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- playerNumber -->
+        <Test.User-method status="SKIP" signature="notesNumber()[pri:2, instance:Backstage.admin.panel@1ccfd1]" name="notesNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- notesNumber -->
+        </Test.User-method> <!-- notesNumber -->
       </class> <!-- Backstage.admin.panel -->
       <class name="Backstage.admin.FinanceManagement">
-        <userList-method status="SKIP" signature="rechargeNumber()[pri:1, instance:Backstage.admin.FinanceManagement@ead673]" name="rechargeNumber" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        <Test.User-method status="SKIP" signature="rechargeNumber()[pri:1, instance:Backstage.admin.FinanceManagement@ead673]" name="rechargeNumber" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- rechargeNumber -->
-        <userList-method status="SKIP" signature="rechargeBalance()[pri:2, instance:Backstage.admin.FinanceManagement@ead673]" name="rechargeBalance" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- rechargeNumber -->
+        <Test.User-method status="SKIP" signature="rechargeBalance()[pri:2, instance:Backstage.admin.FinanceManagement@ead673]" name="rechargeBalance" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- rechargeBalance -->
-        <userList-method status="SKIP" signature="balanceWithdraw()[pri:3, instance:Backstage.admin.FinanceManagement@ead673]" name="balanceWithdraw" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- rechargeBalance -->
+        <Test.User-method status="SKIP" signature="balanceWithdraw()[pri:3, instance:Backstage.admin.FinanceManagement@ead673]" name="balanceWithdraw" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- balanceWithdraw -->
-        <userList-method status="SKIP" signature="balanceVip()[pri:4, instance:Backstage.admin.FinanceManagement@ead673]" name="balanceVip" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- balanceWithdraw -->
+        <Test.User-method status="SKIP" signature="balanceVip()[pri:4, instance:Backstage.admin.FinanceManagement@ead673]" name="balanceVip" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- balanceVip -->
-        <userList-method status="SKIP" signature="ReconciliationVip()[pri:5, instance:Backstage.admin.FinanceManagement@ead673]" name="ReconciliationVip" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- balanceVip -->
+        <Test.User-method status="SKIP" signature="ReconciliationVip()[pri:5, instance:Backstage.admin.FinanceManagement@ead673]" name="ReconciliationVip" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- ReconciliationVip -->
-        <userList-method status="SKIP" signature="BalanceVipToday()[pri:7, instance:Backstage.admin.FinanceManagement@ead673]" name="BalanceVipToday" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- ReconciliationVip -->
+        <Test.User-method status="SKIP" signature="BalanceVipToday()[pri:7, instance:Backstage.admin.FinanceManagement@ead673]" name="BalanceVipToday" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- BalanceVipToday -->
-        <userList-method status="SKIP" signature="rechargeOnline()[pri:8, instance:Backstage.admin.FinanceManagement@ead673]" name="rechargeOnline" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- BalanceVipToday -->
+        <Test.User-method status="SKIP" signature="rechargeOnline()[pri:8, instance:Backstage.admin.FinanceManagement@ead673]" name="rechargeOnline" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- rechargeOnline -->
-        <userList-method status="SKIP" signature="underLine()[pri:9, instance:Backstage.admin.FinanceManagement@ead673]" name="underLine" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- rechargeOnline -->
+        <Test.User-method status="SKIP" signature="underLine()[pri:9, instance:Backstage.admin.FinanceManagement@ead673]" name="underLine" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- underLine -->
-        <userList-method status="SKIP" signature="rechargeMoney()[pri:10, instance:Backstage.admin.FinanceManagement@ead673]" name="rechargeMoney" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- underLine -->
+        <Test.User-method status="SKIP" signature="rechargeMoney()[pri:10, instance:Backstage.admin.FinanceManagement@ead673]" name="rechargeMoney" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- rechargeMoney -->
-        <userList-method status="SKIP" signature="practiceLoseOrWin()[pri:11, instance:Backstage.admin.FinanceManagement@ead673]" name="practiceLoseOrWin" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- rechargeMoney -->
+        <Test.User-method status="SKIP" signature="practiceLoseOrWin()[pri:11, instance:Backstage.admin.FinanceManagement@ead673]" name="practiceLoseOrWin" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- practiceLoseOrWin -->
-        <userList-method status="SKIP" signature="unLiquidatedMoney()[pri:12, instance:Backstage.admin.FinanceManagement@ead673]" name="unLiquidatedMoney" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- practiceLoseOrWin -->
+        <Test.User-method status="SKIP" signature="unLiquidatedMoney()[pri:12, instance:Backstage.admin.FinanceManagement@ead673]" name="unLiquidatedMoney" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- unLiquidatedMoney -->
+        </Test.User-method> <!-- unLiquidatedMoney -->
       </class> <!-- Backstage.admin.FinanceManagement -->
       <class name="CPBet.cycleRacingCar">
-        <userList-method status="FAIL" signature="login()[pri:0, instance:CPBet.cycleRacingCar@1e11bda]" name="login" is-config="true" duration-ms="0" started-at="2019-10-21T10:12:54Z" finished-at="2019-10-21T10:12:54Z">
+        <Test.User-method status="FAIL" signature="login()[pri:0, instance:CPBet.cycleRacingCar@1e11bda]" name="login" is-config="true" duration-ms="0" started-at="2019-10-21T10:12:54Z" finished-at="2019-10-21T10:12:54Z">
           <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
               <![CDATA[invalid session id
@@ -122,112 +122,112 @@ Session ID: 8da109b52a6b4363a6c548233e42a46c
           </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- login -->
-        <userList-method status="SKIP" signature="loginBefore()[pri:0, instance:Backstage.admin.panel@1ccfd1]" name="loginBefore" is-config="true" duration-ms="0" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- login -->
+        <Test.User-method status="SKIP" signature="loginBefore()[pri:0, instance:Backstage.admin.panel@1ccfd1]" name="loginBefore" is-config="true" duration-ms="0" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- loginBefore -->
-        <userList-method status="SKIP" signature="loginBefore()[pri:0, instance:Backstage.admin.userList@1de6148]" name="loginBefore" is-config="true" duration-ms="0" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- loginBefore -->
+        <Test.User-method status="SKIP" signature="loginBefore()[pri:0, instance:Backstage.admin.Test.User@1de6148]" name="loginBefore" is-config="true" duration-ms="0" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- loginBefore -->
-        <userList-method status="SKIP" signature="issue()[pri:1, instance:CPBet.cycleRacingCar@1e11bda]" name="issue" duration-ms="45" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- loginBefore -->
+        <Test.User-method status="SKIP" signature="issue()[pri:1, instance:CPBet.cycleRacingCar@1e11bda]" name="issue" duration-ms="45" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- issue -->
-        <userList-method status="SKIP" signature="openLotteryTime()[pri:2, instance:CPBet.cycleRacingCar@1e11bda]" name="openLotteryTime" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- issue -->
+        <Test.User-method status="SKIP" signature="openLotteryTime()[pri:2, instance:CPBet.cycleRacingCar@1e11bda]" name="openLotteryTime" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- openLotteryTime -->
-        <userList-method status="SKIP" signature="lotteryResult()[pri:3, instance:CPBet.cycleRacingCar@1e11bda]" name="lotteryResult" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- openLotteryTime -->
+        <Test.User-method status="SKIP" signature="lotteryResult()[pri:3, instance:CPBet.cycleRacingCar@1e11bda]" name="lotteryResult" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- lotteryResult -->
-        <userList-method status="SKIP" signature="close()[pri:0, instance:CPBet.cycleRacingCar@1e11bda]" name="close" is-config="true" duration-ms="0" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- lotteryResult -->
+        <Test.User-method status="SKIP" signature="close()[pri:0, instance:CPBet.cycleRacingCar@1e11bda]" name="close" is-config="true" duration-ms="0" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- close -->
+        </Test.User-method> <!-- close -->
       </class> <!-- CPBet.cycleRacingCar -->
       <class name="UtilTest.StringToNumber">
-        <userList-method status="SKIP" signature="StringInt()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="StringInt" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        <Test.User-method status="SKIP" signature="StringInt()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="StringInt" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- StringInt -->
-        <userList-method status="SKIP" signature="contains()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="contains" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- StringInt -->
+        <Test.User-method status="SKIP" signature="contains()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="contains" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- contains -->
-        <userList-method status="SKIP" signature="number()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="number" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- contains -->
+        <Test.User-method status="SKIP" signature="number()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="number" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- number -->
-        <userList-method status="SKIP" signature="subString()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="subString" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- number -->
+        <Test.User-method status="SKIP" signature="subString()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="subString" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- subString -->
-        <userList-method status="SKIP" signature="userList()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="userList" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- subString -->
+        <Test.User-method status="SKIP" signature="Test.User()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="Test.User" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- userList -->
-        <userList-method status="SKIP" signature="test2()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="test2" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- Test.User -->
+        <Test.User-method status="SKIP" signature="test2()[pri:0, instance:UtilTest.StringToNumber@10a0a1e]" name="test2" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- test2 -->
+        </Test.User-method> <!-- test2 -->
       </class> <!-- UtilTest.StringToNumber -->
       <class name="Backstage.admin.ReportManagement">
-        <userList-method status="SKIP" signature="rechargeMoneyTotal()[pri:1, instance:Backstage.admin.ReportManagement@1ba25ff]" name="rechargeMoneyTotal" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        <Test.User-method status="SKIP" signature="rechargeMoneyTotal()[pri:1, instance:Backstage.admin.ReportManagement@1ba25ff]" name="rechargeMoneyTotal" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- rechargeMoneyTotal -->
+        </Test.User-method> <!-- rechargeMoneyTotal -->
       </class> <!-- Backstage.admin.ReportManagement -->
       <class name="Backstage.admin.UserManagement">
-        <userList-method status="SKIP" signature="agentNumber()[pri:1, instance:Backstage.admin.UserManagement@176ef56]" name="agentNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        <Test.User-method status="SKIP" signature="agentNumber()[pri:1, instance:Backstage.admin.UserManagement@176ef56]" name="agentNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- agentNumber -->
-        <userList-method status="SKIP" signature="vipNumber()[pri:2, instance:Backstage.admin.UserManagement@176ef56]" name="vipNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- agentNumber -->
+        <Test.User-method status="SKIP" signature="vipNumber()[pri:2, instance:Backstage.admin.UserManagement@176ef56]" name="vipNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- vipNumber -->
-        <userList-method status="SKIP" signature="agentVipNumber()[pri:3, instance:Backstage.admin.UserManagement@176ef56]" name="agentVipNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- vipNumber -->
+        <Test.User-method status="SKIP" signature="agentVipNumber()[pri:3, instance:Backstage.admin.UserManagement@176ef56]" name="agentVipNumber" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- agentVipNumber -->
-        <userList-method status="SKIP" signature="loginTime()[pri:5, instance:Backstage.admin.UserManagement@176ef56]" name="loginTime" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- agentVipNumber -->
+        <Test.User-method status="SKIP" signature="loginTime()[pri:5, instance:Backstage.admin.UserManagement@176ef56]" name="loginTime" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- loginTime -->
-        <userList-method status="SKIP" signature="desc()[pri:6, instance:Backstage.admin.UserManagement@176ef56]" name="desc" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- loginTime -->
+        <Test.User-method status="SKIP" signature="desc()[pri:6, instance:Backstage.admin.UserManagement@176ef56]" name="desc" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- desc -->
-        <userList-method status="SKIP" signature="addBalance()[pri:7, instance:Backstage.admin.UserManagement@176ef56]" name="addBalance" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- desc -->
+        <Test.User-method status="SKIP" signature="addBalance()[pri:7, instance:Backstage.admin.UserManagement@176ef56]" name="addBalance" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- addBalance -->
-        <userList-method status="SKIP" signature="subtractBalance()[pri:8, instance:Backstage.admin.UserManagement@176ef56]" name="subtractBalance" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- addBalance -->
+        <Test.User-method status="SKIP" signature="subtractBalance()[pri:8, instance:Backstage.admin.UserManagement@176ef56]" name="subtractBalance" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- subtractBalance -->
-        <userList-method status="SKIP" signature="vipUsableMoney()[pri:9, instance:Backstage.admin.UserManagement@176ef56]" name="vipUsableMoney" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- subtractBalance -->
+        <Test.User-method status="SKIP" signature="vipUsableMoney()[pri:9, instance:Backstage.admin.UserManagement@176ef56]" name="vipUsableMoney" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- vipUsableMoney -->
-        <userList-method status="SKIP" signature="onlinePlayer()[pri:10, instance:Backstage.admin.UserManagement@176ef56]" name="onlinePlayer" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- vipUsableMoney -->
+        <Test.User-method status="SKIP" signature="onlinePlayer()[pri:10, instance:Backstage.admin.UserManagement@176ef56]" name="onlinePlayer" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- onlinePlayer -->
-        <userList-method status="SKIP" signature="onlineBackstage()[pri:11, instance:Backstage.admin.UserManagement@176ef56]" name="onlineBackstage" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+        </Test.User-method> <!-- onlinePlayer -->
+        <Test.User-method status="SKIP" signature="onlineBackstage()[pri:11, instance:Backstage.admin.UserManagement@176ef56]" name="onlineBackstage" duration-ms="1" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- onlineBackstage -->
+        </Test.User-method> <!-- onlineBackstage -->
       </class> <!-- Backstage.admin.UserManagement -->
-      <class name="Backstage.admin.userList">
-        <userList-method status="SKIP" signature="getTest()[pri:0, instance:Backstage.admin.userList@1de6148]" name="getTest" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
+      <class name="Backstage.admin.Test.User">
+        <Test.User-method status="SKIP" signature="getTest()[pri:0, instance:Backstage.admin.Test.User@1de6148]" name="getTest" duration-ms="2" started-at="2019-10-21T10:12:56Z" finished-at="2019-10-21T10:12:56Z">
           <reporter-output>
           </reporter-output>
-        </userList-method> <!-- getTest -->
-      </class> <!-- Backstage.admin.userList -->
-    </userList> <!-- webdriverCpTest -->
+        </Test.User-method> <!-- getTest -->
+      </class> <!-- Backstage.admin.Test.User -->
+    </Test.User> <!-- webdriverCpTest -->
   </suite> <!-- Default Suite -->
 </testng-results>

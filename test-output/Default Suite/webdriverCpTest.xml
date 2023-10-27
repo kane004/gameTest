@@ -101,13 +101,13 @@ Session ID: 8da109b52a6b4363a6c548233e42a46c
   <testcase name="subString" time="0.001" classname="UtilTest.StringToNumber">
     <skipped/>
   </testcase> <!-- subString -->
-  <testcase name="userList" time="0.002" classname="UtilTest.StringToNumber">
+  <testcase name="Test.User" time="0.002" classname="UtilTest.StringToNumber">
     <skipped/>
-  </testcase> <!-- userList -->
+  </testcase> <!-- Test.User -->
   <testcase name="test2" time="0.002" classname="UtilTest.StringToNumber">
     <skipped/>
   </testcase> <!-- test2 -->
-  <testcase name="getTest" time="0.002" classname="Backstage.admin.userList">
+  <testcase name="getTest" time="0.002" classname="Backstage.admin.Test.User">
     <skipped/>
   </testcase> <!-- getTest -->
   <testcase name="agentNumber" time="0.002" classname="Backstage.admin.UserManagement">

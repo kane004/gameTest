@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="后台" >
-    <userList name="登录" preserve-order="true" >
+<suite name="用户管理" >
+    <test name="用户列表" preserve-order="true" >
         <classes>
-            <class name="userList"></class>
+            <class name="Test.User"></class>
 
         </classes>
-    </userList>
+    </test>
 </suite>

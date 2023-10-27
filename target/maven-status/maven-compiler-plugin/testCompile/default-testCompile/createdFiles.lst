@@ -2,4 +2,5 @@ PageActions.class
 test.class
 ElementLocators.class
 DatabaseHelper.class
+BugTracker.class
 ListenerPackage\Assertion.class
