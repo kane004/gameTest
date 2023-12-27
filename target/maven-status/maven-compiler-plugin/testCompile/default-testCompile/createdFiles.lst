@@ -1,6 +1,8 @@
-PageActions.class
-test.class
-ElementLocators.class
-DatabaseHelper.class
-BugTracker.class
-ListenerPackage\Assertion.class
+Method\UserMethod.class
+Database\DatabaseHelper.class
+ListenerAssertion\Assertion.class
+Test\User.class
+Test\TgGet.class
+Element\UserElement.class
+Test\Home.class
+Bug\BugTracker.class

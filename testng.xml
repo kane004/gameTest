@@ -3,7 +3,7 @@
 <suite name="用户管理" >
     <test name="用户列表" preserve-order="true" >
         <classes>
-            <class name="Test.User"></class>
+            <class name="Test.TgGet"></class>
 
         </classes>
     </test>

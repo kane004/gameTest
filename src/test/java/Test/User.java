@@ -42,7 +42,7 @@ public class User {
         pageActions = new UserMethod(driver);
 
         //登录
-        pageActions.sendKeyID("799");
+        pageActions.sendKeyID("800");
         pageActions.enterUsername("kane01");
         pageActions.enterPassword("kane01");
         pageActions.clickCode();
@@ -58,12 +58,12 @@ public class User {
     @Severity(SeverityLevel.BLOCKER)
     @Step("1.点击用户列表<br>2.输入用户昵称：凯恩一<br>3.进入资金信息<br>4.获取充值总计金额<br>5.获取今日充值金额，昨日充值金额，前日充值金额<br>6.计算充值总计")
     @Description("验证会员充值金额总计")
-    @Test(priority = 1)
+    @Test(priority = 1 )
     public void rechargeTotal() throws InterruptedException {
         pageActions.Home();
         pageActions.userList();
         Thread.sleep(2000);
-        pageActions.nickname("凯恩一一");
+        pageActions.nickname("凯恩一");
         pageActions.dateClose();
         Thread.sleep(2000);
         pageActions.clickID();
@@ -74,10 +74,10 @@ public class User {
         pageActions.rechargeToday();
         pageActions.rechargeYesterday();
 
-        String rechargeTotal = pageActions.rechargeTotal();
-        String rechargeToday = pageActions.rechargeToday();
-        String rechargeYesterday = pageActions.rechargeYesterday();
-        String rechargeBefore = pageActions.rechargeBefore();
+        String rechargeTotal = pageActions.rechargeTotal().replace(",","");
+        String rechargeToday = pageActions.rechargeToday().replace("","");
+        String rechargeYesterday = pageActions.rechargeYesterday().replace(",","");
+        String rechargeBefore = pageActions.rechargeBefore().replace(",","");
 
         BigDecimal rechargeTotal1 = new BigDecimal(rechargeTotal);
         BigDecimal rechargeToday1 = new BigDecimal(rechargeToday);
@@ -116,20 +116,20 @@ public class User {
     @Description("验证会员提现金额总计")
     @Test(priority = 2)
     public void withdrawTotal() throws InterruptedException {
-        String withdrawTotal = pageActions.withdrawTotal();
-        String withdrawToday = pageActions.withdrawToday();
-        String withdrawYesterday = pageActions.withdrawYesterday();
-        String withdrawBefore = pageActions.withdrawBefore();
+        String withdrawTotal = pageActions.withdrawTotal().replace(",","");
+        String withdrawToday = pageActions.withdrawToday().replace(",","");
+        String withdrawYesterday = pageActions.withdrawYesterday().replace(",","");
+        String withdrawBefore = pageActions.withdrawBefore().replace(",","");
 
         BigDecimal withdrawTotal1 = new BigDecimal(withdrawTotal);
         BigDecimal withdrawToday1 = new BigDecimal(withdrawToday);
         BigDecimal withdrawYesterday1 = new BigDecimal(withdrawYesterday);
         BigDecimal withdrawBefore1 = new BigDecimal(withdrawBefore);
 
-        System.out.println("充值金额总计："+withdrawTotal1);
-        System.out.println("今日充值："+withdrawToday1);
-        System.out.println("昨日充值："+withdrawYesterday1);
-        System.out.println("前日充值："+withdrawBefore1);
+        System.out.println("提现金额总计："+withdrawTotal1);
+        System.out.println("今日提现："+withdrawToday1);
+        System.out.println("昨日提现："+withdrawYesterday1);
+        System.out.println("前日提现："+withdrawBefore1);
 
 
         BigDecimal result = withdrawToday1.add(withdrawYesterday1).add(withdrawBefore1);
@@ -150,10 +150,10 @@ public class User {
     @Description("验证会员优惠金额总计")
     @Test(priority = 3)
     public void discountTotal() throws InterruptedException {
-        String discountTotal = pageActions.discountTotal();
-        String discountToday = pageActions.discountToday();
-        String discountYesterday = pageActions.discountYesterday();
-        String discountBefore = pageActions.discountBefore();
+        String discountTotal = pageActions.discountTotal().replace(",","");
+        String discountToday = pageActions.discountToday().replace(",","");
+        String discountYesterday = pageActions.discountYesterday().replace(",","");
+        String discountBefore = pageActions.discountBefore().replace(",","");
 
         BigDecimal discountTotal1 = new BigDecimal(discountTotal);
         BigDecimal discountToday1 = new BigDecimal(discountToday);
@@ -183,10 +183,10 @@ public class User {
     @Description("验证会员活动金额总计")
     @Test(priority = 4)
     public void activityTotal() throws InterruptedException {
-        String activityTotal = pageActions.activityTotal();
-        String activityToday = pageActions.activityToday();
-        String activityYesterday = pageActions.activityYesterday();
-        String activityBefore = pageActions.activityBefore();
+        String activityTotal = pageActions.activityTotal().replace(",","");
+        String activityToday = pageActions.activityToday().replace(",","");
+        String activityYesterday = pageActions.activityYesterday().replace(",","");
+        String activityBefore = pageActions.activityBefore().replace(",","");
 
         BigDecimal activityTotal1 = new BigDecimal(activityTotal);
         BigDecimal activityToday1 = new BigDecimal(activityToday);
@@ -216,10 +216,10 @@ public class User {
     @Description("验证会员下级返点金额总计")
     @Test(priority = 5)
     public void subordinateWaterTotal() throws InterruptedException {
-        String subordinateWaterTotal = pageActions.subordinateWaterTotal();
-        String subordinateWaterToday = pageActions.subordinateWaterToday();
-        String subordinateWaterYesterday = pageActions.subordinateWaterYesterday();
-        String subordinateWaterBefore = pageActions.subordinateWaterBefore();
+        String subordinateWaterTotal = pageActions.subordinateWaterTotal().replace(",","");
+        String subordinateWaterToday = pageActions.subordinateWaterToday().replace(",","");
+        String subordinateWaterYesterday = pageActions.subordinateWaterYesterday().replace(",","");
+        String subordinateWaterBefore = pageActions.subordinateWaterBefore().replace(",","");
 
         BigDecimal subordinateWaterTotal1 = new BigDecimal(subordinateWaterTotal);
         BigDecimal subordinateWaterToday1 = new BigDecimal(subordinateWaterToday);
@@ -248,10 +248,10 @@ public class User {
     @Description("验证会员自身返水金额总计")
     @Test(priority = 6)
     public void selfWaterTotal() throws InterruptedException {
-        String selfWaterTotal = pageActions.selfWaterTotal();
-        String selfWaterToday = pageActions.selfWaterToday();
-        String selfWaterYesterday = pageActions.selfWaterYesterday();
-        String selfWaterBefore = pageActions.selfWaterBefore();
+        String selfWaterTotal = pageActions.selfWaterTotal().replace(",","");
+        String selfWaterToday = pageActions.selfWaterToday().replace(",","");
+        String selfWaterYesterday = pageActions.selfWaterYesterday().replace(",","");
+        String selfWaterBefore = pageActions.selfWaterBefore().replace(",","");
 
         BigDecimal selfWaterTotal1 = new BigDecimal(selfWaterTotal);
         BigDecimal selfWaterToday1 = new BigDecimal(selfWaterToday);
@@ -281,10 +281,10 @@ public class User {
     @Description("验证会员礼物金额总计")
     @Test(priority = 7)
     public void giftTotal() throws InterruptedException {
-        String giftTotal = pageActions.giftTotal();
-        String giftToday = pageActions.giftToday();
-        String giftYesterday = pageActions.giftYesterday();
-        String giftBefore = pageActions.giftBefore();
+        String giftTotal = pageActions.giftTotal().replace(",","");
+        String giftToday = pageActions.giftToday().replace(",","");
+        String giftYesterday = pageActions.giftYesterday().replace(",","");
+        String giftBefore = pageActions.giftBefore().replace(",","");
 
         BigDecimal giftTotal1 = new BigDecimal(giftTotal);
         BigDecimal giftToday1 = new BigDecimal(giftToday);
@@ -314,10 +314,10 @@ public class User {
     @Description("验证会员订阅金额总计")
     @Test(priority = 8)
     public void subscriptionTotal() throws InterruptedException {
-        String subscriptionTotal = pageActions.subscriptionTotal();
-        String subscriptionToday = pageActions.subscriptionToday();
-        String subscriptionYesterday = pageActions.subscriptionYesterday();
-        String subscriptionBefore = pageActions.subscriptionBefore();
+        String subscriptionTotal = pageActions.subscriptionTotal().replace(",","");
+        String subscriptionToday = pageActions.subscriptionToday().replace(",","");
+        String subscriptionYesterday = pageActions.subscriptionYesterday().replace(",","");
+        String subscriptionBefore = pageActions.subscriptionBefore().replace(",","");
 
         BigDecimal subscriptionTotal1 = new BigDecimal(subscriptionTotal);
         BigDecimal subscriptionToday1 = new BigDecimal(subscriptionToday);
@@ -347,10 +347,10 @@ public class User {
     @Description("验证会员互动金额总计")
     @Test(priority = 9)
     public void interactTotal() throws InterruptedException {
-        String interactTotal = pageActions.interactTotal();
-        String interactToday = pageActions.interactToday();
-        String interactYesterday = pageActions.interactYesterday();
-        String interactBefore = pageActions.interactBefore();
+        String interactTotal = pageActions.interactTotal().replace(",","");
+        String interactToday = pageActions.interactToday().replace(",","");
+        String interactYesterday = pageActions.interactYesterday().replace(",","");
+        String interactBefore = pageActions.interactBefore().replace(",","");
 
         BigDecimal interactTotal1 = new BigDecimal(interactTotal);
         BigDecimal interactToday1 = new BigDecimal(interactToday);
@@ -381,10 +381,10 @@ public class User {
     @Description("验证会员打赏金额总计")
     @Test(priority = 10)
     public void rewardTotal() throws InterruptedException {
-        String rewardTotal = pageActions.rewardTotal();
-        String rewardToday = pageActions.rewardToday();
-        String rewardYesterday = pageActions.rewardYesterday();
-        String rewardBefore = pageActions.rewardBefore();
+        String rewardTotal = pageActions.rewardTotal().replace(",","");
+        String rewardToday = pageActions.rewardToday().replace(",","");
+        String rewardYesterday = pageActions.rewardYesterday().replace(",","");
+        String rewardBefore = pageActions.rewardBefore().replace(",","");
 
         BigDecimal rewardTotal1 = new BigDecimal(rewardTotal);
         BigDecimal rewardToday1 = new BigDecimal(rewardToday);
@@ -413,10 +413,10 @@ public class User {
     @Description("验证会员DFG中奖金额总计")
     @Test(priority = 11)
     public void DFGLuckyTotal() throws InterruptedException {
-        String DFGLuckyTotal = pageActions.DFGLuckyTotal();
-        String DFGLuckyToday = pageActions.DFGLuckyToday();
-        String DFGLuckyYesterday = pageActions.DFGLuckyYesterday();
-        String DFGLuckyBefore = pageActions.DFGLuckyBefore();
+        String DFGLuckyTotal = pageActions.DFGLuckyTotal().replace(",","");
+        String DFGLuckyToday = pageActions.DFGLuckyToday().replace(",","");
+        String DFGLuckyYesterday = pageActions.DFGLuckyYesterday().replace(",","");
+        String DFGLuckyBefore = pageActions.DFGLuckyBefore().replace(",","");
 
         // 截取最后一个字符并保留前面的部分
         String remainingTotal = DFGLuckyTotal.substring(0, DFGLuckyTotal.length() - 1);
@@ -452,10 +452,10 @@ public class User {
     @Description("验证会员DFG投注金额总计")
     @Test(priority = 12)
     public void DFGBetTotal() throws InterruptedException {
-        String DFGBetTotal = pageActions.DFGBetTotal();
-        String DFGBetToday = pageActions.DFGBetToday();
-        String DFGBetYesterday = pageActions.DFGBetYesterday();
-        String DFGBetBefore = pageActions.DFGBetBefore();
+        String DFGBetTotal = pageActions.DFGBetTotal().replace(",","");
+        String DFGBetToday = pageActions.DFGBetToday().replace(",","");
+        String DFGBetYesterday = pageActions.DFGBetYesterday().replace(",","");
+        String DFGBetBefore = pageActions.DFGBetBefore().replace(",","");
 
         // 截取第一个字符并保留后面的部分
         String DFGBetTotal1 = DFGBetTotal.substring(0, DFGBetTotal.length() - 1);
@@ -491,10 +491,10 @@ public class User {
     @Description("验证会员DFG投注金额总计")
     @Test(priority = 13)
     public void DFGWinLoseTotal() throws InterruptedException {
-        String DFGWinLoseTotal = pageActions.DFGWinLoseTotal();
-        String DFGWinLoseToday = pageActions.DFGWinLoseToday();
-        String DFGWinLoseYesterday = pageActions.DFGWinLoseYesterday();
-        String DFGWinLoseBefore = pageActions.DFGWinLoseBefore();
+        String DFGWinLoseTotal = pageActions.DFGWinLoseTotal().replace(",","");
+        String DFGWinLoseToday = pageActions.DFGWinLoseToday().replace(",","");
+        String DFGWinLoseYesterday = pageActions.DFGWinLoseYesterday().replace(",","");
+        String DFGWinLoseBefore = pageActions.DFGWinLoseBefore().replace(",","");
 
         // 截取第一个字符并保留后面的部分
         String DFGWinLoseTotal1 = DFGWinLoseTotal.substring(0, DFGWinLoseTotal.length() - 1);
@@ -529,10 +529,10 @@ public class User {
     @Description("验证会员三方游戏中奖金额总计")
     @Test(priority = 14)
     public void threeGameLuckyTotal() throws InterruptedException {
-        String threeGameLuckyTotal = pageActions.threeGameLuckyTotal();
-        String threeGameLuckyToday = pageActions.threeGameLuckyToday();
-        String threeGameLuckyYesterday = pageActions.threeGameLuckyYesterday();
-        String threeGameLuckyBefore = pageActions.threeGameLuckyBefore();
+        String threeGameLuckyTotal = pageActions.threeGameLuckyTotal().replace(",","");
+        String threeGameLuckyToday = pageActions.threeGameLuckyToday().replace(",","");
+        String threeGameLuckyYesterday = pageActions.threeGameLuckyYesterday().replace(",","");
+        String threeGameLuckyBefore = pageActions.threeGameLuckyBefore().replace(",","");
 
         // 截取第一个字符并保留后面的部分
         String threeGameLuckyTotal1 = threeGameLuckyTotal.substring(0, threeGameLuckyTotal.length() - 1);
@@ -568,10 +568,10 @@ public class User {
     @Description("验证会员三方游戏投注金额总计")
     @Test(priority = 15)
     public void threeGameBetTotal() throws InterruptedException {
-        String threeGameBetTotal = pageActions.threeGameBetTotal();
-        String threeGameBetToday = pageActions.threeGameBetToday();
-        String threeGameBetYesterday = pageActions.threeGameBetYesterday();
-        String threeGameBetBefore = pageActions.threeGameBetBefore();
+        String threeGameBetTotal = pageActions.threeGameBetTotal().replace(",","");
+        String threeGameBetToday = pageActions.threeGameBetToday().replace(",","");
+        String threeGameBetYesterday = pageActions.threeGameBetYesterday().replace(",","");
+        String threeGameBetBefore = pageActions.threeGameBetBefore().replace(",","");
 
         // 截取第一个字符并保留后面的部分
         String threeGameBetTotal1 = threeGameBetTotal.substring(0, threeGameBetTotal.length() - 1);
@@ -607,10 +607,10 @@ public class User {
     @Description("验证会员三方游戏盈亏金额总计")
     @Test(priority = 16)
     public void threeGameWinLoseTotal() throws InterruptedException {
-        String threeGameWinLoseTotal = pageActions.threeGameWinLoseTotal();
-        String threeGameWinLoseToday = pageActions.threeGameWinLoseToday();
-        String threeGameWinLoseYesterday = pageActions.threeGameWinLoseYesterday();
-        String threeGameWinLoseBefore = pageActions.threeGameWinLoseBefore();
+        String threeGameWinLoseTotal = pageActions.threeGameWinLoseTotal().replace(",","");
+        String threeGameWinLoseToday = pageActions.threeGameWinLoseToday().replace(",","");
+        String threeGameWinLoseYesterday = pageActions.threeGameWinLoseYesterday().replace(",","");
+        String threeGameWinLoseBefore = pageActions.threeGameWinLoseBefore().replace(",","");
 
         // 截取第一个字符并保留后面的部分
         String threeGameWinLoseTotal1 = threeGameWinLoseTotal.substring(0, threeGameWinLoseTotal.length() - 1);

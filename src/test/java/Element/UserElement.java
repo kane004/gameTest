@@ -48,7 +48,7 @@ public class UserElement {
     public static By rechargeTotal = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[2]/td[2]");
     public static By rechargeToday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[2]/td[3]");
     public static By rechargeYesterday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[2]/td[4]");
-    public static By rechargeBefore = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[2]/td[4]");
+    public static By rechargeBefore = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[2]/td[5]");
 
 
 
@@ -123,10 +123,10 @@ public class UserElement {
      * */
 
 
-    public static By selfWaterTotal = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[6]/td[2]");
-    public static By selfWaterToday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[6]/td[3]");
-    public static By selfWaterYesterday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[6]/td[4]");
-    public static By selfWaterBefore = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[6]/td[5]");
+    public static By selfWaterTotal = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[7]/td[2]");
+    public static By selfWaterToday = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[7]/td[3]");
+    public static By selfWaterYesterday = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[7]/td[4]");
+    public static By selfWaterBefore = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[7]/td[5]");
 
 
 
@@ -174,7 +174,7 @@ public class UserElement {
     public static By interactTotal = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[8]/td[2]/span[3]");
     public static By interactToday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[8]/td[3]/span[3]");
     public static By interactYesterday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[8]/td[4]/span[3]");
-    public static By interactBefore = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[8]/td[4]/span[3]");
+    public static By interactBefore = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[8]/td[5]/span[3]");
 
 
 
@@ -234,10 +234,10 @@ public class UserElement {
      * */
 
 
-    public static By DFGWinLoseTotal = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[9]/td[2]/span[3]");
-    public static By DFGWinLoseToday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[9]/td[3]/span[3]");
-    public static By DFGWinLoseYesterday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[9]/td[4]/span[3]");
-    public static By DFGWinLoseBefore = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[9]/td[5]/span[3]");
+    public static By DFGWinLoseTotal = By.xpath("///*[@id=\"pane-second\"]/div/div/div[2]/table/tr[9]/td[2]/span[3]");
+    public static By DFGWinLoseToday = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[9]/td[3]/span[3]");
+    public static By DFGWinLoseYesterday = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[9]/td[4]/span[3]");
+    public static By DFGWinLoseBefore = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[9]/td[5]/span[3]");
 
 
     /**
@@ -279,10 +279,10 @@ public class UserElement {
      * */
 
 
-    public static By threeGameWinLoseTotal = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[10]/td[2]/span[3]");
-    public static By threeGameWinLoseToday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[10]/td[3]/span[3]");
-    public static By threeGameWinLoseYesterday = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[10]/td[4]/span[3]");
-    public static By threeGameWinLoseBefore = By.xpath("//*[@id=\"pane-second\"]/div[1]/div/div[2]/table/tr[10]/td[5]/span[3]");
+    public static By threeGameWinLoseTotal = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[10]/td[2]/span[3]");
+    public static By threeGameWinLoseToday = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[10]/td[3]/span[3]");
+    public static By threeGameWinLoseYesterday = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[10]/td[4]/span[3]");
+    public static By threeGameWinLoseBefore = By.xpath("//*[@id=\"pane-second\"]/div/div/div[2]/table/tr[10]/td[5]/span[3]");
 
 
 

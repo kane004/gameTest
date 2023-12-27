@@ -80,22 +80,11 @@
             <version>1.2.71</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-Test.User -->
+
         <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-Test.User</artifactId>
-            <version>1.2.71</version>
-            <scope>Test.User</scope>
-        </dependency>
-
-
-
-            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.6.6</version>
-            <scope>Test.User</scope>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>4.1.2</version> <!-- 检查最新版本 -->
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
@@ -116,7 +105,12 @@
             <version>1.8.3</version>
             <scope>Test.User</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.16</version>
+            <scope>test</scope>
+        </dependency>
 
 
     </dependencies>

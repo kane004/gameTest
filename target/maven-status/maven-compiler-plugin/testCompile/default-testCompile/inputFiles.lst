@@ -1,6 +1,8 @@
-C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\PageActions.java
-C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\BugTracker.java
-C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\ListenerPackage\Assertion.java
-C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\test.java
-C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\ElementLocators.java
-C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\DatabaseHelper.java
+C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\Test\Home.java
+C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\Test\User.java
+C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\Database\DatabaseHelper.java
+C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\Bug\BugTracker.java
+C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\Method\UserMethod.java
+C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\Element\UserElement.java
+C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\Test\TgGet.java
+C:\Users\Administrator\IdeaProjects\webdriverGameTest\src\test\java\ListenerAssertion\Assertion.java
